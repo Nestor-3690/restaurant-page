@@ -28,3 +28,23 @@ nav {
 #content {
     font-family: "Merienda";
 }
+
+.restaurant-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.restaurant-photos > * {
+    max-width: 50vw;
+    height: 100%;
+}
+
+.pizza-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pizza-photos > * {
+    max-width: 50vw;
+    height: 100%;
+}
