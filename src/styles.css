@@ -87,6 +87,10 @@ nav button:nth-child(3) {
     border-top: 1px solid #737373;
 }
 
+.restaurant-headline, .pizzas-headline {
+    font-size: 3rem;
+}
+
 .restaurant-photos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,8 +116,14 @@ nav button:nth-child(3) {
 }
 
 footer {
+    padding: 0.75rem;
     margin-top: auto;
     background-color: #164e63;
     color: white;
     text-align: center;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white;
 }
