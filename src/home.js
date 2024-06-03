@@ -18,7 +18,7 @@ function displayHome() {
     main.classList.add("restaurant-main");
     const mainHeadline = document.createElement("div");
     mainHeadline.classList.add("main-headline");
-    mainHeadline.textContent = `${restaurantName} was created by Nesor3690 in June 2024. His goal was to propose the best pizzas in the world in a beautiful restaurant.`;
+    mainHeadline.textContent = `${restaurantName} was created by Nestor3690 in June 2024. His goal was to propose the best pizzas in the world in a beautiful restaurant.`;
     const mainDesc = document.createElement("div");
     mainDesc.classList.add("main-desc");
     mainDesc.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque mi eget mi suscipit, a commodo turpis laoreet. Quisque hendrerit eros feugiat quam ultrices, in ultrices nisi rhoncus. Curabitur cursus vel lectus in ornare. Proin quis blandit velit. Cras justo ligula, suscipit a augue ac, commodo pellentesque turpis. Integer mattis pharetra dolor at dignissim. Nunc vel sollicitudin nisi, sed egestas velit. Nunc efficitur fringilla metus, ut mollis enim scelerisque eget.`
