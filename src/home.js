@@ -8,6 +8,7 @@ import pizza4 from "./images/pizza4.jpg";
 function displayHome() {
     const restaurantName = "Nestor Pizza's";
     const content = document.querySelector("#content");
+    content.textContent = '';
     
     const title = document.createElement("div");
     title.classList.add("restaurant-title")
