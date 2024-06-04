@@ -6,20 +6,21 @@ import { displayContact } from './contact';
 
 (function() {
     const content = document.querySelector("#content");
+    const restaurant = "Nestor's Pizzas";
 
     const buttons = document.querySelectorAll(".nav-button");
     buttons.forEach((button) => {
         button.addEventListener("click", () => {
             content.textContent = "";
             if (button.textContent === "Home") {
-                displayHome(content);
+                displayHome(content, restaurant);
             } else if (button.textContent === "Menu") {
-                displayMenu(content);
+                displayMenu(content, restaurant);
             } else if (button.textContent === "Contact") {
-                displayContact(content);
+                displayContact(content, restaurant);
             }
         })
     })
 
-    displayHome(content);
+    displayHome(content, restaurant);
 })();

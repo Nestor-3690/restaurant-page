@@ -1,5 +1,4 @@
-function displayMenu(content) {
-    const restaurantName = "Nestor's Pizzas"
+function displayMenu(content, restaurantName) {
     const dishes = [{
         name: "Margherita",
         price: "14.00",

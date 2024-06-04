@@ -1,5 +1,4 @@
-function displayContact(content) {
-    const restaurantName = "Nestor's Pizzas"
+function displayContact(content, restaurantName) {
     const contactList = [{
         name: "Nestor-3690",
         position: "Owner",

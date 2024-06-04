@@ -5,9 +5,7 @@ import pizza2 from "./images/pizza2.jpg";
 import pizza3 from "./images/pizza3.jpg";
 import pizza4 from "./images/pizza4.jpg";
 
-function displayHome(content) {
-    const restaurantName = "Nestor Pizzas";
-    
+function displayHome(content, restaurantName) {  
     const title = document.createElement("div");
     title.classList.add("restaurant-title")
     title.textContent = `${restaurantName}`;
