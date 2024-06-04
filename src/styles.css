@@ -50,7 +50,7 @@ nav {
     color: #22c55e;
 }
 
-.nav-button:nth-child(1):hover, .home-active {
+.nav-button:nth-child(1):hover {
     background-color: #22c55e;
     color: white;
 }
@@ -59,7 +59,7 @@ nav {
     color: white;
 }
 
-.nav-button:nth-child(2):hover, .menu-active {
+.nav-button:nth-child(2):hover {
     background-color: white;
     color: #164e63;
 }
@@ -68,7 +68,7 @@ nav button:nth-child(3) {
     color: #ef4444
 }
 
-.nav-button:nth-child(3):hover, .contact-active {
+.nav-button:nth-child(3):hover {
     background-color: #ef4444;
     color: white;
 }
