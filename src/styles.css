@@ -66,7 +66,7 @@ nav button:nth-child(3) {
     gap: 1.5rem;
 }
 
-.restaurant-title {
+.restaurant-title, .menu-title {
     padding: 2rem 0;
     margin: 2rem 0;
     text-align: center;
@@ -74,7 +74,7 @@ nav button:nth-child(3) {
     text-transform: uppercase;
 }
 
-.restaurant-main {
+.restaurant-main, .main-menu {
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -116,6 +116,45 @@ nav button:nth-child(3) {
 .pizza-photos > * {
     box-shadow: 0px 0px 5px 2px #737373;
 }
+
+.menu {
+    padding: 3rem;
+    align-self: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 0;
+    margin-bottom: 2rem;
+    background-color: #fed7aabf;
+    box-shadow: 0px 0px 5px 1px #164e63;
+}
+
+.main-menu {
+    margin-bottom: 6rem;
+}
+
+.menu div:nth-child(3) {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.menu-pizzas, .desserts {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-pizzas {
+    padding-right: 4.5rem;
+    border-right: 1px solid #164e63;
+}
+
+.pizza, .dessert {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
 
 footer {
     padding: 0.75rem;

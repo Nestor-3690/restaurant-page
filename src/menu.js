@@ -79,9 +79,11 @@ function displayMenu() {
 
     const menu = document.createElement("div");
     menu.classList.add("menu");
+    const pizzastitle = document.createElement("div");
+    pizzastitle.textContent = "Pizzas";
+    menu.appendChild(pizzastitle);
     const pizzas = document.createElement("div");
-    pizzas.classList.add("pizzas");
-    pizzas.textContent = "Pizzas";
+    pizzas.classList.add("menu-pizzas");
     dishes.forEach((dish) => {
         const pizza = document.createElement("div");
         pizza.classList.add("pizza");
@@ -96,9 +98,11 @@ function displayMenu() {
         pizzas.appendChild(pizza);
     })
     menu.appendChild(pizzas);
+    const dessertstitle = document.createElement("div");
+    dessertstitle.textContent = "Desserts";
+    menu.appendChild(dessertstitle);
     const desserts = document.createElement("div");;
     desserts.classList.add("desserts");
-    desserts.textContent = "Desserts";
     dessrt.forEach((dsrt) => {
         const dessert = document.createElement("div");
         dessert.classList.add("dessert");
