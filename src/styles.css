@@ -36,25 +36,41 @@ header {
 
 nav {
     display: flex;
-    gap: 3rem;
 }
 
-nav button {
+.nav-button {
+    padding: 0 3rem;
     font-size: 2rem;
     background-color: inherit;
     border: none;
+    transition: all 0.5s;
 }
 
-nav button:nth-child(1) {
+.nav-button:nth-child(1) {
     color: #22c55e;
 }
 
-nav button:nth-child(2) {
+.nav-button:nth-child(1):hover, .home-active {
+    background-color: #22c55e;
     color: white;
+}
+
+.nav-button:nth-child(2) {
+    color: white;
+}
+
+.nav-button:nth-child(2):hover, .menu-active {
+    background-color: white;
+    color: #164e63;
 }
 
 nav button:nth-child(3) {
     color: #ef4444
+}
+
+.nav-button:nth-child(3):hover, .contact-active {
+    background-color: #ef4444;
+    color: white;
 }
 
 #content {
