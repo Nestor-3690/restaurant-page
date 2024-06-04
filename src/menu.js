@@ -1,5 +1,5 @@
 function displayMenu() {
-    const restaurantName = "Nestor's Pizza's"
+    const restaurantName = "Nestor's Pizzas"
     const dishes = [{
         name: "Margherita",
         price: "14.00",

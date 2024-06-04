@@ -6,7 +6,7 @@ import pizza3 from "./images/pizza3.jpg";
 import pizza4 from "./images/pizza4.jpg";
 
 function displayHome() {
-    const restaurantName = "Nestor Pizza's";
+    const restaurantName = "Nestor Pizzas";
     const content = document.querySelector("#content");
     content.textContent = '';
     
