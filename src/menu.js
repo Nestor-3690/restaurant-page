@@ -1,4 +1,4 @@
-function displayMenu() {
+function displayMenu(content) {
     const restaurantName = "Nestor's Pizzas"
     const dishes = [{
         name: "Margherita",
@@ -63,9 +63,6 @@ function displayMenu() {
         price: "2.50",
     },
     ]
-
-    const content = document.querySelector("#content");
-    content.textContent = "";
 
     const title = document.createElement("div");
     title.classList.add("menu-title");

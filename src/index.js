@@ -5,18 +5,21 @@ import { displayMenu } from './menu';
 import { displayContact } from './contact';
 
 (function() {
+    const content = document.querySelector("#content");
+
     const buttons = document.querySelectorAll(".nav-button");
     buttons.forEach((button) => {
         button.addEventListener("click", () => {
+            content.textContent = "";
             if (button.textContent === "Home") {
-                displayHome();
+                displayHome(content);
             } else if (button.textContent === "Menu") {
-                displayMenu();
+                displayMenu(content);
             } else if (button.textContent === "Contact") {
-                displayContact();
+                displayContact(content);
             }
         })
     })
 
-    displayHome();
+    displayHome(content);
 })();

@@ -1,4 +1,4 @@
-function displayContact() {
+function displayContact(content) {
     const restaurantName = "Nestor's Pizzas"
     const contactList = [{
         name: "Nestor-3690",
@@ -13,9 +13,6 @@ function displayContact() {
         email: "chefbob@fakemail.com"
     }
     ];
-
-    const content = document.querySelector("#content");
-    content.textContent = "";
 
     const title = document.createElement("div");
     title.classList.add("contact-title");
